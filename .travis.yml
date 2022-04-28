@@ -1,8 +1,11 @@
 os: linux
 cache: bundler
 dist: bionic
-language: python 
+language: python
 python:
-  - "3.7"
+- '3.7'
 script:
-   - python totestfile.py
+- python totestfile.py
+env:
+  global:
+    secure: eAmFXi8n5cbqGVjnFn8v78XN+ZXn21/6kemvcA5OT6PHLIaoanSp0EiA3Kmcv59ymokboMPrqK0I8S3lgikbRk8cCqVkR+P4PyEkoymI751tb3pCBGdnk1VQ1EN6NF8RzHgnaZJtwuZH2SJGVaipi0Ii4qrVVWtHz6yOQRGQUf7zOi4uNfMpPAm+UlVUAVy3hfReW5tG+y3aYi/H/oszyfVFdsAyC/Q8PAMVFKlTr0useJiBmK5uH8hEPY7g79IWtFgtXMsvXHncR+p0pMQZaT/70lyPRDBI/yo2WKQvle/5Tq51+g4R1OYyCTWYfHJ3QDqbPmEDXTQD2bJlioq9jdH714onChxTPLIcecm5+ZVWkTANiKi4YQvrHvyjkSmsfO5PTXZDU/6irU/VC/LpnsHuI9wT8CJXnz/bSqRO3HBslkY5/xUrjJkYqvhgGZDJf1cOLKI8OurDgxhJCOAxzxIWtgIPlWdsLzpxYyRuQXIa9k2p3OzMxGwg19LGCpg/qBeGqXW6Y59gseAg38bEW0Q7WhyISt7S+diHYOY8xyzLft/B29YJ4IXSsbaSTRybo8NO/sjBd8yyMSFDzkg1tKN/7A1DBwv5PSvjNT0euoE0db9s/Uu0e6iFefB/0r/DYj1mVJDvHh2+pRDwB99sljfW+7IOCgPurHDy0Y0Qepw=
